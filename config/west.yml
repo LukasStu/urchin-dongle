@@ -1,14 +1,14 @@
 manifest:
   remotes:
-      # zmk official
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      # zmk fork
+    - name: rayreside
+      url-base: https://github.com/rayreside
       # bravekarma
     - name: caksoylar
       url-base: https://github.com/caksoylar
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: rayreside
       revision: main
       import: app/west.yml
   self:
