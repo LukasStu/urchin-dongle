@@ -64,11 +64,6 @@
         // both left thumb keys
         // left index & middle fingers (home-row)
         // hold control & space for Adobe workflow
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <15 16>;
-        };
     };
 
     keymap {
@@ -81,7 +76,7 @@
             bindings = <
 &kp Q             &kp W             &kp E    &kp R            &kp T             &kp Y          &kp U        &kp I        &kp O      &kp P
 &kp A             &kp S             &kp D    &lt 1 F          &kp G             &kp H          &kp J        &kp K        &kp L      &kp BACKSPACE
-&mt LEFT_ALT Z    &mt LEFT_GUI X    &kp C    &kp V            &kp B             &kp N          &kp M        &kp COMMA    &kp DOT    &kp SLASH
+&mt LEFT_ALT Z    &mt LEFT_GUI X    &kp C    &kp V            &kp B             &kp N          &kp M        &kp COMMA    &kp DOT    &kp ENTER
                                              &mt LCTRL TAB    &kp LEFT_SHIFT    &lt 2 SPACE    &lt 3 SQT
             >;
         };
@@ -91,10 +86,10 @@
         sym_layer {
             label = "sym";
             bindings = <
-&kp ESCAPE    &kp MINUS               &kp EQUAL                &kp PIPE     &kp NON_US_BACKSLASH    &kp ASTERISK    &kp N7          &kp N8          &kp N9          &kp PLUS
-&kp UNDER     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS    &trans       &kp SEMICOLON           &kp COLON       &kp NUMBER_4    &kp N5          &kp NUMBER_6    &trans
-&kp PERIOD    &kp LEFT_BRACKET        &kp RIGHT_BRACKET        &kp GRAVE    &none                   &none           &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &trans
-                                                               &trans       &trans                  &trans          &kp N0
+&kp ESCAPE      &kp MINUS               &kp EQUAL                &none     &none            &none            &kp N7          &kp N8          &kp N9          &kp GRAVE
+&kp QUESTION    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS    &trans    &kp COLON        &kp PIPE         &kp NUMBER_4    &kp N5          &kp NUMBER_6    &trans
+&kp SLASH       &kp LEFT_BRACKET        &kp RIGHT_BRACKET        &none     &kp SEMICOLON    &kp BACKSLASH    &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &trans
+                                                                 &trans    &trans           &trans           &kp N0
             >;
         };
 
