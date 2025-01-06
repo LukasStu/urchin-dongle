@@ -1,14 +1,15 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "urchin.dtsi"
 
 / {
-    chosen {
-        zmk,kscan = &mock_kscan;
+    kscan0: kscan {        
+        compatible = "zmk,kscan-gpio-matrix";
+        label = "KSCAN0";
     };
 
-    mock_kscan: mock_kscan_0 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
-        rows = <0>;
-        events = <0>;
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        transform = <&default_transform>;
     };
 };
