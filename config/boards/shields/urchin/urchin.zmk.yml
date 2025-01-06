@@ -3,7 +3,7 @@ id: urchin
 name: urchin
 type: shield
 url: https://github.com/duckyb/urchin
-requires: [seeeduino_xiao_ble]
+requires: [pro_micro]
 features:
   - keys
 siblings:
