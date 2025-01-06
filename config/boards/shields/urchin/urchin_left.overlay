@@ -6,10 +6,7 @@
 
 #include "urchin.dtsi"
 
-/ {
-    kscan0 {
-    compatible = "zmk,kscan-gpio-matrix";
-    label = "KSCAN";
+&kscan0 {
     diode-direction = "col2row";
     col-gpios
         = <&pro_micro 18 (GPIO_ACTIVE_HIGH)> // COL0
@@ -24,5 +21,4 @@
         , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW2
         , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW3
     ;
-    };
 };
