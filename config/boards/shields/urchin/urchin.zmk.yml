@@ -7,5 +7,6 @@ requires: [pro_micro]
 features:
   - keys
 siblings:
+  - urchin
   - urchin_left
   - urchin_right
