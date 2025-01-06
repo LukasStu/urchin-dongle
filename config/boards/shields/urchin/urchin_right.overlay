@@ -10,7 +10,8 @@
     col-offset = <5>;
 };
 
-&kscan0 {
+/ {
+    kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
     label = "KSCAN";
     diode-direction = "col2row";
@@ -27,4 +28,5 @@
         , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW2
         , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW3
     ;
+    };
 };
