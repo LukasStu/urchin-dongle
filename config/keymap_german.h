@@ -25,8 +25,8 @@
 #define DE_OE SCLN     // Ö
 #define DE_AE QUOT     // Ä
 #define DE_LESS NUBS   // <
-#define DE_MINS SLSH   // -
-#define DE_COMM COMM   // ,
+#define DE_MINS FSLH   // -
+#define DE_COMM COMMA  // ,
 #define DE_DOT DOT     // .
 
 /* Shifted symbols
@@ -59,9 +59,9 @@
 #define DE_ASTRK LS(RBKT) // *
 #define DE_APOS LS(NUHS)  // ‘ (German “Einfaches Anführungszeichen”)
 #define DE_GREAT LS(NUBS) // >
-#define DE_SCLN LS(COMM)  // ;
-#define DE_COLN LS(DOT)   // :
-#define DE_UNDSC LS(SLSH) // _
+#define DE_SCLN SEMI      // ;
+#define DE_COLN COLON     // :
+#define DE_UNDSC UNDER    // _
 
 /* AltGr (RALT) symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
