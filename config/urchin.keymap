@@ -79,7 +79,7 @@
 		compatible = "zmk,keymap";
 		// Noted Base Layer
         // ┌───┬───┬───┬───┬───┐       ┌───┬───┬───┬───┬───┐
-        // │ Z │ Y │ U │ A │ Q │       │ P │ B │ M │ L │ F │
+        // │ Y │ Z │ U │ A │ Q │       │ P │ B │ M │ L │ F │
         // ├───┼───┼───┼───┼───┤       ├───┼───┼───┼───┼───┤
         // │ C │ S │ I │ E │ O │       │ D │ T │ N │ R │ H │
         // ├───┼───┼───┼───┼───┤       ├───┼───┼───┼───┼───┤
@@ -91,7 +91,7 @@
 		default_layer {
 			label = "Base Layer";
 			bindings = <
-				&kp Z   &kp Y   &kp U   &kp A   &kp Q      &kp P   &kp B   &kp M   &kp L   &kp F
+				&kp Y   &kp Z   &kp U   &kp A   &kp Q      &kp P   &kp B   &kp M   &kp L   &kp F
 				&kp C   &kp S   &kp I   &kp E   &kp O      &kp D   &kp T   &kp N   &kp R   &kp H
 				&kp V   &kp X   &kp DE_UE &kp DE_AE &kp DE_OE  &kp W   &kp G   &kp J   &kp DE_SS   &kp K
 								&mo EXT &kp LSHIFT        &kp SPACE &mo SYM
