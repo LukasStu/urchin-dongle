@@ -99,11 +99,11 @@
 		};
 		// Extend layer
         // ┌───┬───┬───┬───┬───┐       ┌───┬───┬───┬───┬───┐
-        // │Esc│   │   │   │   │       │   │   │   │   │CAP│
+        // │ 1 │ 2 │ 3 │ 4 │ 5 │       │ 6 │ 7 │ 8 │ 9 │ 0 │
         // ├───┼───┼───┼───┼───┤       ├───┼───┼───┼───┼───┤
-        // │ALT│WIN│SFT│CTL│ALR│       │LFT│DWN│UP │RGT│DEL|
+        // │ALT│WIN│SFT│CTL│ALR│       │LFT│DWN│UP │RGT│   |
         // ├───┼───┼───┼───┼───┤       ├───┼───┼───┼───┼───┤
-        // │   │   │   │   │   │       │C+B│BSP│ , │ . │ - │
+        // │Esc│   │   │DEL│CAP│       │C+B│BSP│ , │ . │ - │
         // └───┴───┴───┴───┴───┘       └───┴───┴───┴───┴───┘
         //         ┌─────┬─────┐       ┌─────┬─────┐
         //         │  X  │None │       │Enter│None │
@@ -111,10 +111,10 @@
 		ext_layer {
 			label = "Extend Layer";
 			bindings = <
-				&kp ESC    &none    &none    &none    &none          &none    &none    &none     &none    &kp CAPSLOCK
-				&sk LALT   &sk LGUI &sk LSFT &sk LCTRL &sk RALT      &kp LEFT &kp DOWN &kp UP    &kp RIGHT &kp DEL
-				&none      &none    &none    &none    &none          &kp LS(BSPC) &kp BSPC &kp DE_COMM &kp DE_DOT  &kp DE_MINS
-				&trans    &none     &kp ENTER &none
+				&kp N1 	   &kp N2   &kp N3   &kp N4    &kp N5         &kp N6       &kp N7   &kp N8      &kp N9     &kp N0
+				&sk LALT   &sk LGUI &sk LSFT &sk LCTRL &sk RALT       &kp LEFT     &kp DOWN &kp UP      &kp RIGHT  &kp DEL
+				&kp ESC    &none    &none    &kp DEL   &kp CAPSLOCK   &kp LS(BSPC) &kp BSPC &kp DE_COMM &kp DE_DOT &kp DE_MINS
+											 &none     &none     	  &kp ENTER    &none
 			>;
 		};
 		// Function layer
