@@ -113,7 +113,7 @@
 			bindings = <
 				&kp N1 	   &kp N2   &kp N3   &kp N4    &kp N5         &kp N6        &kp N7   &kp N8      &kp N9     &kp N0
 				&sk LALT   &sk LGUI &sk LSFT &sk LCTRL &sk RALT       &kp LEFT      &kp DOWN &kp UP      &kp RIGHT  &kp DEL
-				&kp ESC    &none    &none    &kp DEL   &kp CAPSLOCK   &kp LC(BSPC)  &kp BSPC &kp DE_COMM &kp DE_DOT &kp DE_MINS
+				&kp ESC    &none    &none    &kp TAB   &kp CAPSLOCK   &kp LC(BSPC)  &kp BSPC &kp DE_COMM &kp DE_DOT &kp DE_MINS
 											 &none     &none     	  &kp ENTER     &none
 			>;
 		};
@@ -187,7 +187,7 @@
         // │BL │   │   │   │   │       │   │   │   │   │SU │
         // └───┴───┴───┴───┴───┘       └───┴───┴───┴───┴───┘
         //         ┌─────┬─────┐       ┌─────┬─────┐
-        //         │  X  │  X  │     │     │
+        //         │  X  │  X  │       │     │     │
         //         └─────┴─────┘       └─────┴─────┘
 		settings_layer {
 				label = "Settings Layer";
