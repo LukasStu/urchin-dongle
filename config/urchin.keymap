@@ -92,7 +92,7 @@
 				&kp Y   &kp Z   &kp U   &kp A   &kp Q      &kp P   &kp B   &kp M   &kp L   &kp F
 				&kp C   &kp S   &kp I   &kp E   &kp O      &kp D   &kp T   &kp N   &kp R   &kp H
 				&kp V   &kp X   &kp DE_UE &kp DE_AE &kp DE_OE  &kp W   &kp G   &kp J   &kp DE_SS   &kp K
-								&mo EXT &mt LSHIFT SPACE       &mt LSHIFT SPACE &mo SYM
+								&mo EXT &qt LSHIFT SPACE       &qt LSHIFT SPACE &mo SYM
 			>;
 		};
 		// Extend layer
