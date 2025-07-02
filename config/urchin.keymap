@@ -36,6 +36,14 @@
 			quick-tap-ms = <200>;
 			bindings = <&kp>, <&kp>;
 		};
+		smt: sticky_mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&sk>;
+            display-name = "sticky Mod-Tap";
+        };
 	};
 
 	macros {
@@ -110,7 +118,7 @@
 			display-name = "Extend Layer";
 			bindings = <
 				&kp N1 	   &kp N2   &kp N3   &kp N4    &kp N5         &kp N6        &kp N7   &kp N8      &kp N9     &kp N0
-				&sk LALT   &sk LGUI &sk LSHIFT &sk LCTRL &sk RALT       &kp LEFT      &kp DOWN &kp UP      &kp RIGHT  &kp DE_PLUS
+				&smt LALT LALT  &smt LGUI LGUI &smt LSHIFT LSHIFT &smt LCTRL LCTRL &smt RALT RALT     &kp LEFT      &kp DOWN &kp UP      &kp RIGHT  &kp DE_PLUS
 				&kp ESC    &none    &kp TAB    &kp DEL   &kp CAPSLOCK   &kp LC(BSPC)  &kp BSPC &kp DE_COMM &kp DE_DOT &kp DE_MINS
 											 &none     &none     	  &kp ENTER     &none
 			>;
